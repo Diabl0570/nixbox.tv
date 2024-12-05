@@ -14,9 +14,11 @@
       ./my-services/transmission.nix
       ./my-services/radarr.nix
       ./my-services/sonarr.nix
-      ./my-services/plex.nix
+      # ./my-services/plex.nix
+      ./my-services/prowlarr.nix
+      ./my-services/jellyseerr.nix
     ];
-
+    
   # Workaroound for VSCode Remote Server
   programs.nix-ld = {
     enable = true;

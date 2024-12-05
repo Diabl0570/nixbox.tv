@@ -1,7 +1,7 @@
 { ... }:
 
 {
-  services.prowlarr = {
+  services.jellyseerr = {
     enable = true;
     openFirewall = true;
   };
