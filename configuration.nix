@@ -17,6 +17,7 @@
       # ./my-services/plex.nix
       ./my-services/prowlarr.nix
       ./my-services/jellyseerr.nix
+      ./my-services/jackett.nix
     ];
     
   # Workaroound for VSCode Remote Server

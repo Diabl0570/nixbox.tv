@@ -7,4 +7,4 @@
     openFirewall = true;
     group = "Media";
   };
-};
+}
