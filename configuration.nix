@@ -19,6 +19,7 @@
       ./my-services/jellyseerr.nix
       ./my-services/jackett.nix
       ./my-services/lidarr.nix
+      ./my-services/readarr.nix
     ];
     
   # Workaroound for VSCode Remote Server
