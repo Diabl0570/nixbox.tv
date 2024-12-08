@@ -18,6 +18,7 @@
       ./my-services/prowlarr.nix
       ./my-services/jellyseerr.nix
       ./my-services/jackett.nix
+      ./my-services/lidarr.nix
     ];
     
   # Workaroound for VSCode Remote Server
