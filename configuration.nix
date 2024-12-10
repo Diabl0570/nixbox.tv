@@ -21,7 +21,20 @@
       ./my-services/lidarr.nix
       ./my-services/readarr.nix
     ];
-    
+
+config.virtualisation.oci-containers = {
+    enable = true;
+    containers = {
+      xteve = {
+        image = "alturismo/xteve_guide2go:latest"; # Replace with your Docker image
+        ports = [ "34400:34400" ]; # Map host port 8080 to container port 80
+        #environment = {
+        #  VAR1 = "value1"; # Add any environment variables your container needs
+        #};
+        #volumes = [ "/path/on/host:/path/in/container" ]; # Bind host paths to container paths
+      };
+    };
+  };    
   # Workaroound for VSCode Remote Server
   programs.nix-ld = {
     enable = true;
